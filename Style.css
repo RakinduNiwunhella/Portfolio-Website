@@ -63,17 +63,21 @@ nav .contact-btn {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    margin-top: 20px;
     height: 100vh;
-    margin-top: 0;
+
 }
+    
 
 .intro {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;  /* Ensures alignment at the top */
     width: 80%;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
 .social-icons a {
     margin: 0 10px;
@@ -92,11 +96,12 @@ main {
 
 .intro-image {
     align-self: flex-start;  
-    margin-top: -130px; 
+    margin-top: 0;
 }
 
 .intro-text {
     max-width: 50%;
+    margin-top: 80px;
 }
 
 h1 {

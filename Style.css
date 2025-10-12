@@ -134,3 +134,39 @@ p {
     height: 460px;
     object-fit: cover;
 }
+.expertise {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.skill-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #555;
+}

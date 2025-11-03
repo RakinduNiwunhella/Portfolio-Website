@@ -37,7 +37,7 @@ nav .logo {
 }
 
 nav .logo img {
-    width: 70px;  
+    width: 70px; 
     height: auto;
 }
 
@@ -616,10 +616,16 @@ footer {
 
 .submit-btn { margin-top: 8px; padding: 12px 18px; }
 
+.phone{
+  display: none;
+}
+
 /* ===== Responsive Header (<=768px) ===== */
 @media (max-width: 768px) {
 
- 
+ main{
+  margin-top: 0;
+ }
 header{
   padding: 0px 0;
 }
@@ -634,6 +640,9 @@ header{
     width: 100%;
     padding: 5px;
     
+  }
+  .intro-image{
+    padding-top: 35px;
   }
 
   nav .logo {
@@ -679,6 +688,12 @@ header{
   p  { font-size: 1rem; }
   .intro-text { margin-top: 24px; max-width: 100%; }
 
+ .laptop {
+  display: none;
+ }
+ /* .phone{
+  display: contents;
+ } */
 
 }
 

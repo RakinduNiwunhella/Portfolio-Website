@@ -275,6 +275,13 @@ footer {
   flex: 0 1 35%;
   max-width: 35%;
 }
+.about-text {
+  flex: 0 1 65%;
+  max-width: 65%;
+  padding-left: 2%;
+  animation: slideInFromLeft 720ms ease-out 180ms both; 
+
+}
 
 
 .about-intro p{
@@ -285,13 +292,7 @@ footer {
   color: #5F63F2;
 }
 
-.about-text {
-  flex: 0 1 65%;
-  max-width: 65%;
-  padding-left: 2%;
-  animation: slideInFromLeft 720ms ease-out 180ms both; 
 
-}
 
 /* ===== Info Cards (About page) ===== */
 .info-cards{ 
@@ -691,9 +692,36 @@ header{
  .laptop {
   display: none;
  }
- /* .phone{
-  display: contents;
- } */
+
+ /* About Page */
+ .about-text p{
+  font-size: 0.7rem;
+ }
+ .about-intro{
+  gap: 5px;
+ }
+
+.about-intro .intro-image{
+  flex: 0 1 45%;
+  max-width: 45%;
+}
+.about-text {
+  flex: 0 1 55%;
+  max-width: 55%;
+  padding-left: 2%;
+  animation: slideInFromLeft 720ms ease-out 180ms both; 
+
+}
+.info-content {
+  font-size: 0.7rem;
+}
+.info-content li{
+  font-size: 0.6rem;
+}
+.info-card{
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
 }
 

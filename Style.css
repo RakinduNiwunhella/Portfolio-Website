@@ -33,11 +33,11 @@ nav .logo {
     margin-left: 25px;
     flex: 1;
     display: flex;
-    justify-content: flex-start;  /* Align logo to the left */
+    justify-content: flex-start;  
 }
 
 nav .logo img {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;  
     height: auto;
 }
 
@@ -141,8 +141,6 @@ p {
     border-radius: 5px;
 }
 
-
-
 .intro-image img {
     border-radius: 20px;
     width: 100%;
@@ -150,7 +148,7 @@ p {
 
     height: auto;
     object-fit: cover;
-    animation: rotateInfinite s linear infinite;
+
 }
 .expertise {
     text-align: center;
@@ -673,7 +671,6 @@ header{
   nav ul li {
     margin: 6px 10px; 
   }
-    /* Reduce typography on small screens */
   h1 { font-size: 1.75rem; }
   h2 { font-size: 1.1rem; }
   p  { font-size: 1rem; }

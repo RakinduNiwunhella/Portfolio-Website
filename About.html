@@ -1,137 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-           <div class="logo">
-              <img  src="Resources/Logos/Logo.png" alt="Logo" />
-           </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="Resources/Logos/Logo.png" alt="Logo" />
+      </div>
+      <ul>
+        <li><a href="HomePage.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Blog.html">Blogs</a></li>
+      </ul>
+      <a href="Contact.html" class="contact-btn">Contact Me</a>
+    </nav>
+  </header>
+  <main>
+    <section class="about-intro">
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>
+          I'm <strong>Rakindu Niwunhella</strong>, a passionate Computer Science undergraduate at
+          <strong>Informatics Institute of Technology</strong> affiliated with the University of Westminster (UK).
+          I specialize in programming, web development, and database management,
+          with a deep interest in AI, cybersecurity, and impactful tech solutions.
+          Known for my leadership and discipline, I captained the Royal College Rifle Shooting Team
+          and served as a Senior Prefect.
+        </p>
+      </div>
+
+      <aside class="intro-image" aria-label="Profile image">
+        <img src="Images/Rakindu2.png" alt="Rakindu Niwunhella" />
+      </aside>
+    </section>
+
+    <section class="about-details">
+      <div class="info-cards">
+
+        <!-- Education Card -->
+        <section class="info-card" aria-labelledby="edu-heading">
+          <div class="icon"><img src="Resources/Icons/education.png" alt="Education"></div>
+          <div class="info-content">
+            <h2>Education</h2>
             <ul>
-                <li><a href="HomePage.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Blog.html">Blogs</a></li>
+              <li><strong>BSc (Hons) Computer Science</strong> - IIT, affiliated with University of Westminster (2024 -
+                Present)</li>
+              <li><strong>Diploma in IT (DiTEC)</strong> - Esoft Metro Campus, Pearson (2021)</li>
+              <li><strong>GCE A/L (Physical Science)</strong> - Royal College (Maths C, Physics B, Chemistry C)</li>
+              <li><strong>GCE O/L</strong> - 9As at Royal College (2020)</li>
             </ul>
-            <a href="Contact.html" class="contact-btn">Contact Me</a>        </nav>
-    </header>
-<main>
-  <section class="about-intro">
-    <div class="about-text">
-      <h1>About Me</h1>
-      <p>
-        I'm <strong>Rakindu Niwunhella</strong>, a passionate Computer Science undergraduate at 
-        <strong>Informatics Institute of Technology</strong> affiliated with the University of Westminster (UK). 
-        I specialize in programming, web development, and database management, 
-        with a deep interest in AI, cybersecurity, and impactful tech solutions.  
-        Known for my leadership and discipline, I captained the Royal College Rifle Shooting Team 
-        and served as a Senior Prefect.
-      </p>
+          </div>
+        </section>
+
+        <!-- Leadership & Roles Card -->
+        <section class="info-card" aria-labelledby="lead-heading">
+          <div class="icon"><img src="Resources/Icons/leadership.png" alt="Leadership & Roles"></div>
+          <div class="info-content">
+            <h2 id="lead-heading">Leadership & Roles</h2>
+            <ul>
+              <li><strong>Senior Prefect</strong> - Royal College (2023/24)</li>
+              <li><strong>Captain</strong> - Royal College Rifle Shooting Team (2021)</li>
+              <li><strong>Chairman</strong> - Green Circle (2022)</li>
+              <li><strong>Secretary</strong> - Radio Club (2022)</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Achievements Card -->
+        <section class="info-card" aria-labelledby="ach-heading">
+          <div class="icon"><img src="Resources/Icons/award.png" alt="Achievements"></div>
+          <div class="info-content">
+            <h2 id="ach-heading">Achievements</h2>
+            <ul>
+              <li>College Coloursman in Rifle Shooting (2019, 2022, 2023, 2024)</li>
+              <li>National Federation Coloursman (2016, 2017, 2018, 2022, 2024)</li>
+              <li>Qualified Sharpshooter (6 x under SLSSSA)</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects Card -->
+        <section class="info-card" aria-labelledby="proj-heading">
+          <div class="icon"><img src="Resources/Icons/projects.png" alt="Projects"></div>
+          <div class="info-content">
+            <h2 id="proj-heading">Projects</h2>
+            <ul>
+              <li><strong>Climate Action Web Platform</strong> - Responsive volunteer portal (HTML, CSS, JS)</li>
+              <li><strong>Traffic Data Simulator</strong> - Python-based simulation tool (Tkinter)</li>
+              <li><strong>Student Enrollment System</strong> - C# + SQL desktop app</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Certifications Card -->
+        <section class="info-card" aria-labelledby="cert-heading">
+          <div class="icon"><img src="Resources/Icons/certificate.png" alt="Certifications"></div>
+          <div class="info-content">
+            <h2 id="cert-heading">Certifications</h2>
+            <ul>
+              <li><strong>Foundations of Cybersecurity</strong> - Google (Coursera, 2025)<br><span>A comprehensive
+                  course covering security principles, network defense, and risk management.</span></li>
+              <li><strong>HTML, CSS, and JavaScript: Building the Web</strong> - LinkedIn Learning
+                (2025)<br><span>Course on front-end web design, styling, and interactivity.</span></li>
+              <li><strong>Java Essential Training: Syntax and Structure</strong> - LinkedIn Learning
+                (2025)<br><span>Covers Java programming concepts, data structures, and object-oriented
+                  principles.</span></li>
+              <li><strong>Learning Python (2020)</strong> - LinkedIn Learning (2025)<br><span>Introduces Python
+                  fundamentals, including syntax, data structures, and programming basics.</span></li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Rakindu Niwunhella. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://web.facebook.com/rakindu.niwunhella/" target="_blank">
+          <img src="Resources/Logos/facebook.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/rakindu_niwunhella/" target="_blank">
+          <img src="Resources/Logos/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/rakindu-niwunhella-388b41307/" target="_blank">
+          <img src="Resources/Logos/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/RakinduNiwunhella" target="_blank">
+          <img src="Resources/Logos/github.png" alt="GitHub" />
+        </a>
+      </div>
     </div>
-
-    <aside class="intro-image" aria-label="Profile image">
-      <img src="Images/Rakindu2.png" alt="Rakindu Niwunhella" />
-    </aside>
-  </section>
-
-  <section class="about-details">
-  <div class="info-cards">
-
-    <!-- Education Card -->
-    <section class="info-card" aria-labelledby="edu-heading">
-      <div class="icon"><img src="Resources/Icons/education.png" alt="Education"></div>
-      <div class="info-content">
-        <h2>Education</h2>
-        <ul>
-          <li><strong>BSc (Hons) Computer Science</strong> - IIT, affiliated with University of Westminster (2024 - Present)</li>
-          <li><strong>Diploma in IT (DiTEC)</strong> - Esoft Metro Campus, Pearson (2021)</li>
-          <li><strong>GCE A/L (Physical Science)</strong> - Royal College (Maths C, Physics B, Chemistry C)</li>
-          <li><strong>GCE O/L</strong> - 9As at Royal College (2020)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Leadership & Roles Card -->
-    <section class="info-card" aria-labelledby="lead-heading">
-      <div class="icon"><img src="Resources/Icons/leadership.png" alt="Leadership & Roles"></div>
-      <div class="info-content">
-        <h2 id="lead-heading">Leadership & Roles</h2>
-        <ul>
-          <li><strong>Senior Prefect</strong> - Royal College (2023/24)</li>
-          <li><strong>Captain</strong> - Royal College Rifle Shooting Team (2021)</li>
-          <li><strong>Chairman</strong> - Green Circle (2022)</li>
-          <li><strong>Secretary</strong> - Radio Club (2022)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Achievements Card -->
-    <section class="info-card" aria-labelledby="ach-heading">
-      <div class="icon"><img src="Resources/Icons/award.png" alt="Achievements"></div>
-      <div class="info-content">
-        <h2 id="ach-heading">Achievements</h2>
-        <ul>
-          <li>College Coloursman in Rifle Shooting (2019, 2022, 2023, 2024)</li>
-          <li>National Federation Coloursman (2016, 2017, 2018, 2022, 2024)</li>
-          <li>Qualified Sharpshooter (6 x under SLSSSA)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Projects Card -->
-    <section class="info-card" aria-labelledby="proj-heading">
-      <div class="icon"><img src="Resources/Icons/projects.png" alt="Projects"></div>
-      <div class="info-content">
-        <h2 id="proj-heading">Projects</h2>
-        <ul>
-          <li><strong>Climate Action Web Platform</strong> - Responsive volunteer portal (HTML, CSS, JS)</li>
-          <li><strong>Traffic Data Simulator</strong> - Python-based simulation tool (Tkinter)</li>
-          <li><strong>Student Enrollment System</strong> - C# + SQL desktop app</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Certifications Card -->
-    <section class="info-card" aria-labelledby="cert-heading">
-      <div class="icon"><img src="Resources/Icons/certificate.png" alt="Certifications"></div>
-      <div class="info-content">
-        <h2 id="cert-heading">Certifications</h2>
-        <ul>
-          <li><strong>Foundations of Cybersecurity</strong> - Google (Coursera, 2025)<br><span>A comprehensive course covering security principles, network defense, and risk management.</span></li>
-          <li><strong>HTML, CSS, and JavaScript: Building the Web</strong> - LinkedIn Learning (2025)<br><span>Course on front-end web design, styling, and interactivity.</span></li>
-          <li><strong>Java Essential Training: Syntax and Structure</strong> - LinkedIn Learning (2025)<br><span>Covers Java programming concepts, data structures, and object-oriented principles.</span></li>
-          <li><strong>Learning Python (2020)</strong> - LinkedIn Learning (2025)<br><span>Introduces Python fundamentals, including syntax, data structures, and programming basics.</span></li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-</section>
-</main>
-
-    <footer>
-        <div class="footer-content">
-            <p>© 2025 Rakindu Niwunhella. All rights reserved.</p>
-            <div class="footer-social">
-                <a href="https://web.facebook.com/rakindu.niwunhella/" target="_blank">  
-                    <img src="Resources/Logos/facebook.png" alt="Facebook" />
-                </a>
-                <a href="https://www.instagram.com/rakindu_niwunhella/" target="_blank">
-                    <img src="Resources/Logos/instagram.png" alt="Instagram" />
-                </a>
-                <a href="https://www.linkedin.com/in/rakindu-niwunhella-388b41307/" target="_blank">
-                    <img src="Resources/Logos/linkedin.png" alt="LinkedIn" />
-                </a>
-                <a href="https://github.com/RakinduNiwunhella" target="_blank">
-                    <img src="Resources/Logos/github.png" alt="GitHub" />
-                </a>
-            </div>
-        </div>
-    </footer>
+  </footer>
 </body>
+
 </html>

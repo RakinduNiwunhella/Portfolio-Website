@@ -566,9 +566,6 @@ footer {
   animation: fadeUp 480ms ease-out 60ms both;
 }
 
-.blog-card {
-  animation: scaleIn 420ms ease-out both;
-}
 
 .blog-cards-grid .blog-card:nth-child(1) {
   animation-delay: 80ms;
@@ -625,6 +622,8 @@ footer {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-left: 4px solid #5F63F2;
+  animation: scaleIn 420ms ease-out both;
+
 }
 
 .blog-card:hover {
@@ -686,16 +685,6 @@ footer {
   border: 2px solid #5F63F2;
 }
 
-/* Read More button style reused */
-.btn.btn-outline {
-  background: #fff;
-  color: #111;
-  border: 1px solid #e1e1e1;
-}
-
-.btn.btn-outline:hover {
-  background: #f7f7ff;
-}
 
 /* Tags styling */
 .tech-badges {

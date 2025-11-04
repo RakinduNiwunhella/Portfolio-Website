@@ -229,7 +229,7 @@ footer {
   display: flex;
   gap: 15px;
 }
-
+/* Task 02 - colours opacity */
 .footer-social a img {
   width: 28px;
   height: 28px;
@@ -394,6 +394,10 @@ footer {
   margin-left: 1rem;
 }
 
+[class="info-content"] h2 ~ ul {
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
 
 
 /* ===== Projects (Cards) ===== */

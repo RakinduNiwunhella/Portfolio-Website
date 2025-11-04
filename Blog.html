@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
@@ -11,7 +10,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav> <!-- Navigation Bar -->
             <div class="logo">
                 <img src="Resources/Logos/Logo.png" alt="Logo" />
             </div>
@@ -25,16 +24,17 @@
         </nav>
     </header>
 
-    <main>
+    <main> <!-- My posts -->
         <section class="blog-featured">
             <h1>Featured Posts</h1>
             <div class="blog-featured-cards">
+                <!-- Featured Post 01 -->
                 <div class="blog-card featured-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-05-10">May 10, 2024</time>
                             <span class="blog-dot">•</span>
-                            <span class="blog-readtime">7 min read</span>
+                            <time class="blog-readtime" datetime="PT7M" aria-label="7 minute read">7 min read</time>
                         </div>
                         <h3>Deep Dive: React Server Components</h3>
                         <p>Explore how React Server Components revolutionize rendering, enabling faster loads and
@@ -49,12 +49,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- Featured Post 02 -->
                 <div class="blog-card featured-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-04-28">Apr 28, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">5 min read</span>
+                            <time class="blog-readtime" datetime="PT5M" aria-label="5 minute read">5 min read</time>
                         </div>
                         <h3>Building Robust Node.js APIs</h3>
                         <p>Best practices for designing and implementing secure, maintainable Node.js APIs. Covers
@@ -76,12 +77,13 @@
         <section class="blog-all">
             <h2>All Posts</h2>
             <div class="blog-cards-grid">
+                <!--  Post 01 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-05-10">May 10, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">7 min read</span>
+                            <time class="blog-readtime" datetime="PT7M" aria-label="7 minute read">7 min read</time>
                         </div>
                         <h4>Deep Dive: React Server Components</h4>
                         <p>Explore how React Server Components revolutionize rendering, enabling faster loads and
@@ -91,12 +93,13 @@
                         </div>
                     </div>
                 </div>
+                <!--  Post 02 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-05-05">May 5, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">4 min read</span>
+                            <time class="blog-readtime" datetime="PT4M" aria-label="4 minute read">4 min read</time>
                         </div>
                         <h4>Modern CSS Techniques for 2024</h4>
                         <p>Discover the latest CSS features, including container queries, new color spaces, and advanced
@@ -106,12 +109,13 @@
                         </div>
                     </div>
                 </div>
+                <!--  Post 03 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-04-28">Apr 28, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">5 min read</span>
+                            <time class="blog-readtime" datetime="PT5M" aria-label="5 minute read">5 min read</time>
                         </div>
                         <h4>Building Robust Node.js APIs</h4>
                         <p>Best practices for designing and implementing secure, maintainable Node.js APIs for modern
@@ -121,12 +125,13 @@
                         </div>
                     </div>
                 </div>
+                <!--  Post 04 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-04-21">Apr 21, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">3 min read</span>
+                            <time class="blog-readtime" datetime="PT3M" aria-label="3 minute read">3 min read</time>
                         </div>
                         <h4>TypeScript Tips & Tricks</h4>
                         <p>Level up your TypeScript codebase with advanced types, utility types, and best practices for
@@ -136,12 +141,13 @@
                         </div>
                     </div>
                 </div>
+                <!--  Post 05 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-04-14">Apr 14, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">6 min read</span>
+                            <time class="blog-readtime" datetime="PT6M" aria-label="6 minute read">6 min read</time>
                         </div>
                         <h4>Animation in React: A Guide</h4>
                         <p>Learn how to add smooth, interactive animations to your React apps using Framer Motion and
@@ -151,12 +157,13 @@
                         </div>
                     </div>
                 </div>
+                <!--  Post 07 -->
                 <div class="blog-card">
                     <div class="card-body">
                         <div class="blog-meta">
                             <time class="blog-date" datetime="2024-04-07">Apr 7, 2024</time> <span
                                 class="blog-dot">•</span>
-                            <span class="blog-readtime">5 min read</span>
+                            <time class="blog-readtime" datetime="PT5M" aria-label="5 minute read">5 min read</time>
                         </div>
                         <h4>Web Performance in 2024</h4>
                         <p>Essential tips and tools for optimizing web performance, from Core Web Vitals to image
@@ -170,7 +177,7 @@
         </section>
     </main>
 
-    <!-- Footer (copied from Projects.html) -->
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <p>© 2025 Rakindu Niwunhella. All rights reserved.</p>

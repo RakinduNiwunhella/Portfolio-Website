@@ -350,7 +350,7 @@ footer {
 
 
 
-/* ===== Info Cards (About page) ===== */
+/*  About page */
 .info-cards {
   display: flex;
   flex-direction: column;
@@ -400,7 +400,7 @@ footer {
 }
 
 
-/* ===== Projects (Cards) ===== */
+/*  Projects - Cards*/
 .projects-intro {
   width: 90%;
   max-width: 1200px;
@@ -478,9 +478,6 @@ footer {
   transform: translateY(-2px);
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
 }
-
-
-
 
 .project-card img {
   width: 100%;
@@ -713,7 +710,7 @@ footer {
   border: 1px solid #e1e1ff;
 }
 
-/* ===== Contact Page ===== */
+/*  Contact Page  */
 .contact-text {
   width: 90%;
   max-width: 1100px;
@@ -898,7 +895,7 @@ a[href^="tel:"] {
   display: none;
 }
 
-/* ===== Responsive Header (<=768px) ===== */
+/*  Responsivenes for phones   */
 @media (max-width: 768px) {
   .phone {
     display: block;

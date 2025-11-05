@@ -76,7 +76,6 @@ main {
   justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
-
   margin-bottom: 10px;
 
 }
@@ -123,7 +122,7 @@ main {
 
 /* Task 01 */
 .intro-text h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-weight: 90;
   font-style: normal;
 }
@@ -136,7 +135,7 @@ h1 {
 h2 {
   font-size: 1.75rem;
   margin-bottom: 20px;
-  color: rgb(95, 99, 242,0.9);
+  color: rgb(95, 99, 242, 0.9);
 }
 
 p {
@@ -228,6 +227,7 @@ footer {
   display: flex;
   gap: 15px;
 }
+
 /* Task 02 - colours opacity */
 .footer-social a img {
   width: 28px;
@@ -393,7 +393,7 @@ footer {
   margin-left: 1rem;
 }
 
-[class="info-content"] h2 ~ ul {
+[class="info-content"] h2~ul {
   font-size: 0.8rem;
   line-height: 1.45;
 }
@@ -438,6 +438,7 @@ footer {
   animation: scaleIn 420ms ease-out both;
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
 }
+
 /* Task 9 - Structural selectors */
 .project-card:first-child {
   border-top: 3px solid #5F63F2;
@@ -446,6 +447,7 @@ footer {
 .project-card:last-of-type {
   border-bottom: 3px solid #5F63F2;
 }
+
 .project-card:nth-child(1) {
   animation-delay: 80ms;
 }

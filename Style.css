@@ -137,7 +137,7 @@ h1 {
 h2 {
   font-size: 1.75rem;
   margin-bottom: 20px;
-  color: #5F63F2;
+  color: rgb(95, 99, 242,0.9);
 }
 
 p {
@@ -550,7 +550,7 @@ footer {
 .btn.btn-outline {
   background: #fff;
   color: #111;
-  border: 1px solid #e1e1e1;
+  border: 0.5px solid #e1e1e1;
 }
 
 .btn.btn-outline:hover {

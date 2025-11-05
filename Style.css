@@ -438,7 +438,14 @@ footer {
   animation: scaleIn 420ms ease-out both;
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
 }
+/* Task 9 - Structural selectors */
+.project-card:first-child {
+  border-top: 3px solid #5F63F2;
+}
 
+.project-card:last-of-type {
+  border-bottom: 3px solid #5F63F2;
+}
 .project-card:nth-child(1) {
   animation-delay: 80ms;
 }

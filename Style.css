@@ -124,7 +124,6 @@ main {
 /* Task 01 */
 .intro-text h2 {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 90;
   font-style: normal;
 }
